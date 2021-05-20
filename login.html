@@ -1,0 +1,203 @@
+<html><head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+   <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta charset="utf-8"><title> teachoo </title>
+      <style>
+  .btn-primary {
+  
+  border-color:transparent;
+}
+  .btn-primary:hover{
+  opacity:.75;
+  border-color:transparent
+  
+  }
+  
+  .hr-with-words>span {
+  color: #999;
+  display: inline-block;
+  background: #fff;
+  padding: 0 .75em;
+ 
+}
+.row{
+   margin-top:15px;
+
+   }
+  .hr-with-words {
+  height: 1.25em;
+  margin: 0 10px 1.25em;
+  border-bottom: solid 1px #dcdcdc;
+  background: 0 0;
+  position: relative;
+  text-align: center;
+  overflow: visible;
+  clear: both;
+  line-height: 2.5em;
+}
+@media(max-width: 370px){
+  .respons{
+    margin-left:0;
+    width:100%;
+  }
+}
+@media(max-width:993px){
+  .buttonadjust{
+    margin-top: 10px;
+  }
+
+}
+   </style>
+</head>
+
+<body>
+
+    <div class="container">
+      <div class="row">
+       <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 respons">
+  
+      
+       <div class="row text-center">
+  <div class="col-md-8 col-md-offset-2" style="margin-bottom:50px">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#login" data-toggle="tab" aria-expanded="true"><h4>Login</h4></a></li>
+            <li class=""><a href="#signup" data-toggle="tab" aria-expanded="false"><h4>Sign Up</h4></a></li>
+          </ul>
+
+
+</div>
+
+</div>
+             <div class="tab-content">
+        <div id="signup" class="tab-pane fade">
+<form class="signup-form">
+  
+      <div class="row text-center">
+  <div class="col-md-8 col-md-offset-2">
+    <input class="form-control " id="user_login" name="user[username]" placeholder="Username" required="required" size="30" tabindex="1" type="text" style="border-radius:0px;">  
+  </div>
+      </div>
+      <div class="row text-center">
+  <div class="col-md-8 col-md-offset-2">
+    <input id="user_password" name="user[password]" placeholder="Password" required="required" size="30" tabindex="2" type="password" class="form-control" style="border-radius:0px">
+    </div>
+  </div>
+  <div class="row text-center">
+  <div class="col-md-8 col-md-offset-2">
+    <input id="user_password" name="user[confirmpassword]" placeholder="Confirm Password" required="required" size="30" tabindex="3" type=" Password" class="form-control" style="border-radius:0px">
+  </div>
+  </div>
+  <div class="row text-center">
+  <div class="col-md-8 col-md-offset-2">
+    <input id="user_password" name="user[email]" placeholder="email@address.com" required="required" size="30" tabindex="4" type="email" class="form-control" style="border-radius:0px">
+  </div>
+  </div>
+
+    <div class="row text-center"> 
+      <div class="col-md-8 col-md-offset-2">
+      <p> On signing up you are confirming that you have read and agree to
+      <a href="/terms-conditions/"> terms and conditions </a></p>
+      </div>
+    </div>
+
+    <div class="row text-center">
+        <button class="btn btn-primary col-sm-4 col-sm-offset-4" style="padding:8px; font-size:16px; color:white;background-color:#52b4af">Sign Up</button>
+ 
+      
+    </div>
+      </form>
+      </div>
+   <div id="login" class="tab-pane fade active in"><form class="signup-form">
+  
+      <div class="row text-center">
+  <div class="col-md-8 col-md-offset-2">
+    <input class="form-control " id="user_login" name="user[username]" placeholder="Username" required="required" size="30" tabindex="1" type="text" style="border-radius:0px;">  
+  </div>
+      </div>
+      <div class="row text-center">
+  <div class="col-md-8 col-md-offset-2">
+    <input id="user_password" name="user[password]" placeholder="Password" required="required" size="30" tabindex="2" type="password" class="form-control" style="border-radius:0px">
+    </div>
+  </div>
+  
+  
+
+    <div class="row "> 
+      <div class="col-md-8 col-md-offset-2">
+        <div class="checkbox col-md-5 ">
+      <label><input type="checkbox" value="">Remember Me</label>
+  </div>
+        <div class="col-md-6 col-md-offest-2" style="margin-top:10px"><a class="button secondaryAction a col-md-offset-2" id="forgot-password" href="/accounts/password/reset/">Forgot Password?</a></div>
+       </div>
+    </div>
+
+    <div class="row text-center">
+        <button class="btn btn-primary col-sm-4 col-sm-offset-4" style="padding:8px; font-size:16px; color:white;background-color:#52b4af ;min-width: 100px">Login</button>
+ 
+      
+    </div>
+
+
+
+<div class="row ">
+<div class="hr-with-words">
+  <span> Connect with</span>
+</div>
+</div>
+<div class="row">
+  
+    
+  
+<div class="col-lg-4 col-md-4 col-xs-8 col-md-offset-2  col-xs-offset-2 " style="min-width: 180px">
+    <a href="/accounts/facebook/login/" style="text-decoration:none">
+      <button class="btn btn-block btn-primary a" style="color:#fff; background-color:#3a5795; padding:0px; border-radius:5px">
+  <div class="col-xs-1 pull-center" style="margin-top:10px">
+  <i class="fa fa-facebook fa-2x"></i></div>
+  <p class="pull-center" style="font-size:20px; margin:10px">facebook </p>
+  
+              </button>
+</a>
+      </div><div class="col-lg-4 col-md-4 col-xs-8 col-lg-offset-0 col-md-offset-0 col-xs-offset-2 buttonadjust" style="min-width: 180px">
+    <a href="/accounts/google/login/" style="text-decoration:none">
+      <button class="btn btn-block btn-primary a" style="color:white; background-color:#d14836;border-radius:5px;padding:0px">
+  <div class="col-xs-1 pull-center" style="margin-top:10px">
+  <i class="fa fa-google fa-2x"></i></div>
+  <p class="pull-center a" style="font-size:20px ; margin:10px;">google</p>
+  
+              </button>
+</a>
+      </div>
+
+    
+</div>
+
+ <div class="row text-center"> 
+      <div class="col-md-8 col-md-offset-2">
+      <p> On signing up you are confirming that you have read and agree to
+      <a href="/terms-conditions/"> terms and conditions </a></p>
+      </div>
+    </div>
+
+
+
+
+
+      </form>
+  
+  </div>
+  
+</div>
+  
+      </div>
+    </div>
+  </div>
+  
+</body></html>

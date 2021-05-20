@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+footer li{
+  margin:auto 10px;
+  display:inline;
+}
+footer ul{
+  padding:0;
+  margin: 0px;  
+  list-style-type:none;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.demo {
+  margin: 0 auto;
+  
+}
+
+.demo h1 {
+  margin-top: 0;
+}
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+  position: absolute;
+  right: 0;
+  /*bottom:0; in case of less content only */
+  text-align: center;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  
+}

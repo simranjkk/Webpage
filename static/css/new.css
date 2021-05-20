@@ -1,0 +1,204 @@
+.tile-container {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.bg-darkCobalt {
+  background: #00356a !important;
+}
+.tile-large {
+  width: 150px;
+  height: 150px;
+  display: block;
+  float: left;
+  margin: 5px;
+  background-color: #eeeeee;
+  box-shadow: inset 0 0 1px #FFFFCC;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: visible;
+  width: 310px;
+  height: 310px;
+}
+.bg-lighterBlue {
+  background: #00ccff !important;
+}
+.tile-square:hover {
+  outline: #999999 solid 3px;
+}
+.bg-cobalt {
+  background: #0050ef !important;
+}
+.tile-small, .tile, .tile-square, .tile-wide, .tile-large, .tile-big, .tile-super {
+  overflow: visible;
+}
+.tile-square {
+  width: 150px;
+  height: 150px;
+  display: block;
+  float: left;
+  margin: 5px;
+  background-color: white;
+  box-shadow: inset 0 0 1px white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: visible;
+}
+.bg-cobalt {
+  background: #0050ef !important;
+}
+.tile-small {
+  width: 150px;
+  height: 150px;
+  display: block;
+  float: left;
+  margin: 5px;
+  background-color: white;
+  box-shadow: inset 0 0 1px white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: visible;
+  width: 70px;
+  height: 70px;
+}
+.bg-red {
+  background: #ce352c !important;
+}.bg-orange {
+  background: #fa6800 !important;
+}
+.bg-green {
+  background: #60a917 !important;
+}
+.tile-wide {
+  width: 150px;
+  display: block;
+  float: left;
+  margin: 5px;
+  background-color: #eeeeee;
+  box-shadow: inset 0 0 1px #FFFFCC;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: visible;
+  width: 290px;
+  height: 150px;
+}
+.bg-lightGreen {
+  background: #7ad61d !important;
+}
+.bg-pink {
+  background: #dc4fad !important;
+}
+
+.tile-smaller {
+  width: 150px;
+  height: 100px;
+  display: block;
+  float: left;
+  margin: 5px;
+  background-color: #eeeeee;
+  box-shadow: inset 0 0 1px #FFFFCC;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: visible;
+  width: 150px;
+  height: 100px;
+}.tile-wider {
+  width: 150px;
+  height: 150px;
+  display: block;
+  float: left;
+  margin: 5px;
+  background-color: #eeeeee;
+  box-shadow: inset 0 0 1px #FFFFCC;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: visible;
+  width: 150px;
+  height: 100px;
+}
+.tilelarge {
+  width: 150px;
+  height: 150px;
+  display: block;
+  float: left;
+  margin: 5px;
+  background-color: #eeeeee;
+  box-shadow: inset 0 0 1px #FFFFCC;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: visible;
+  width: 310px;
+  height: 310px;
+}
+.bg-lighterBlue {
+  background: #00ccff !important;}
+.tile-content.slide-up > .slide-over {
+  top: 100%;
+  z-index: 2;
+  height: 75%;
+  transition: all 0.6s ease;
+}
+.tile-content.slide-up > .slide, .tile-content.slide-down > .slide, .tile-content.slide-up-2 > .slide, .tile-content.slide-down-2 > .slide, .tile-content.slide-left > .slide, .tile-content.slide-right > .slide, .tile-content.slide-left-2 > .slide, .tile-content.slide-right-2 > .slide, .tile-content.slide-up > .slide-over, .tile-content.slide-down > .slide-over, .tile-content.slide-up-2 > .slide-over, .tile-content.slide-down-2 > .slide-over, .tile-content.slide-left > .slide-over, .tile-content.slide-right > .slide-over, .tile-content.slide-left-2 > .slide-over, .tile-content.slide-right-2 > .slide-over {
+  width: 100%;
+  height: inherit;
+  display: block;
+  position: absolute;
+  box-shadow: inset 0 0 1px #FFFFCC;
+}
+.padding10 {
+  padding: 0.625rem;
+}
+.op-cyan {
+  background-color: rgba(27, 161, 226, 0.7) !important;
+}
+.text-small {
+  font-size: 0.625rem;
+}
+.padding10 {
+  padding: 0.625rem;
+}
+.op-cyan {
+  background-color: rgba(27, 161, 226, 0.7) !important;
+}
+div, p, span {
+  position: relative;
+}
+  .no-padding{
+  padding:10px;}
